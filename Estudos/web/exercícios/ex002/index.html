@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Parágrafos e quebras de linha</h1>
+        <p>
+            Qualquer coisa pode ser escrita num parágrafo, contanto que tudo esteja dentro dos dois pares &lt;p&gt; e &lt;/p&gt;.Se quiser quebrar uma linha em um parágrafo, basta apenas usar a tag &lt;br&gt;, se não o fiser a linha não será quebrada. Isso é uma propiedade da linguagem html.
+        </p>
+        <hr>
+        <p>
+            Um exemplo comum de erros de iniciantes é fazer isso:
+        </p>
+        <pre>   
+            Oi 
+            meu
+            nome 
+            é
+            Henrique.
+        </pre>
+        <p>
+            Isso está completamente errado, quando isso for para o navegador o linha continuara 
+            normal e sem nenhuma quebra.
+        </p>
+        <hr>
+        <p>
+            O correto seria assim:
+        </p>
+        <pre>
+            Oi&lt;br&gt;<!--LESS THAN / GREATER THAN-->
+            meu&lt;br&gt;
+            nome&lt;br&gt;
+            é&lt;br&gt;
+            Henrique&lt;br&gt;.
+        </pre>
+        <p>
+            E é assim que se faz uma quebra de linha em parágrafos em html.
+        </p>
+    </body>    
+</html>

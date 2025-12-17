@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Document</title>
+        <style>
+            body{
+                background-color: white;
+                font: normal 15pt Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var nome = window.prompt('Qual é o seu nome')
+            document.write(`Olá ${nome}, seu nome tem ${nome.length} letras!.<br/>`)
+            document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}<br/>`)
+            document.write(`Seu nome em minúsculo é ${nome.toLowerCase()}`)
+
+            // O document.write é usado para por os dados dentro do documento HTML diferent do window que mostrava uma janela do navegador.
+
+            //Esses três formatadores de strings foram usados para contar quantas letras tem o nosso nome: ${nome.length}, para deixar nosso nome em maiúsculo: ${nome.toUpperCase()}, e em minúsculo: ${nome.toLowerCase()}
+        </script>
+    </body>
+</html>
